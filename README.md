@@ -1,16 +1,25 @@
-# React + Vite
+INSTRUCTIONS : 
+# Student Dashboard React App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This project is a simple Student Dashboard built with React that demonstrates React Router, useState, and useEffect. It includes pages for Home, Students, Student Details, and About, all with a minimalistic design.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Installation & Local Development
 
-## React Compiler
+Follow these steps to run the app on your local machine:
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+### 1. Requirements
 
-## Expanding the ESLint configuration
+- Node.js (version 14 or above) – [Download Node.js](https://nodejs.org/)
+- npm (comes with Node.js)
+- A code editor (e.g., VS Code)  
+- Terminal/Command Prompt
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+### 2. Clone the Repository
+
+```bash
+git clone <your-repository-url>
+cd <your-repository-folder>
