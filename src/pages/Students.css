@@ -1,0 +1,59 @@
+body{
+  background-color:#f5f7fb;
+  font-family:system-ui,-apple-system,BlinkMacSystemFont,sans-serif;
+}
+
+/* Page container */
+.students-container{
+  max-width:900px;
+  margin:60px auto;
+  background:white;
+  padding:40px;
+  border-radius:10px;
+  box-shadow:0 5px 20px rgba(0,0,0,0.05);
+}
+
+/* Title */
+.title{
+  text-align:center;
+  margin-bottom:30px;
+  color:#333;
+}
+
+/* Table */
+.student-table{
+  width:100%;
+  border-collapse:collapse;
+}
+
+.student-table th{
+  background:#4f6df5;
+  color:white;
+  padding:12px;
+  text-align:left;
+}
+
+.student-table td{
+  padding:12px;
+  border-bottom:1px solid #eee;
+  color:black;
+}
+
+/* Hover effect */
+.student-table tr:hover{
+  background:#f3f6ff;
+}
+
+/* Button */
+.details-btn{
+  text-decoration:none;
+  background:white;
+  color:wh;
+  padding:6px 12px;
+  border-radius:6px;
+  font-size:14px;
+}
+
+.details-btn:hover{
+  background:white;
+}

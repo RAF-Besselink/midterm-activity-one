@@ -4,8 +4,7 @@ import { Link } from "react-router";
 const StudentList = ({ students }) => {
  return (
     <div> 
-        <h2>Student List</h2>
-        <table border="1" cellPadding="10" style={{ borderCollapse: "collapse", width: "60%" }}>
+        <table className="student-table">
         <thead>
           <tr>
             <th>ID</th>
@@ -22,7 +21,7 @@ const StudentList = ({ students }) => {
               <td>{student.name}</td>
               <td>{student.course}</td>
               <td>
-                <Link to={`/studentdetails/${student.id}`}>
+                <Link className="details-btn" to={`/studentdetails/${student.id}`}>
                   View Details
                 </Link>
                 </td>
