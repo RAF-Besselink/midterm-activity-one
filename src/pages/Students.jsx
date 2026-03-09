@@ -1,4 +1,5 @@
 import {useState, useEffect} from "react";
+import StudentList from "../components/StudentList";
 
 
 const Students = () => {
@@ -23,14 +24,7 @@ const studentData = [
 
     return (
         <div>
-      <h2>Student List</h2>
-      <ul>
-        {students.map((student) => (
-          <li key={student.id}>
-            {student.name} - {student.course}
-          </li>
-        ))}
-      </ul>
+      <StudentList students ={students} />
     </div>
     );
 };
