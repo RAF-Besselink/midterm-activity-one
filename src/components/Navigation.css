@@ -1,0 +1,21 @@
+.navbar {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  padding: 16px 0;
+  font-family: system-ui, -apple-system, sans-serif;
+  background: white;
+  border-bottom: 1px solid #eee;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: #333;
+  font-size: 15px;
+  font-weight: 500;
+  transition: color 0.2s ease;
+}
+
+.navbar a:hover {
+  color: #0077ff;
+}

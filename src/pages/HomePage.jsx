@@ -1,5 +1,4 @@
 import {useState, useEffect} from "react";
-import {getProducts} from "../services/api";
 
 const HomePage = () => {
     const [searchTerm, setSearchTerm] = useState("");
@@ -13,3 +12,4 @@ const HomePage = () => {
     </>
     );
 }
+export default HomePage;
